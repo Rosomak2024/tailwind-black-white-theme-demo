@@ -6,8 +6,38 @@
     <link href="/src/style.css" rel="stylesheet" />
     <title>tailwind-black-white-theme</title>
   </head>
-  <body class="bg-black">
-    <div id="app"></div>
+  <body
+    class="flex items-center flex-col bg-black text-white text-md font-normal py-4"
+  >
+    <header
+      class="w-95/100 h-20 border-2 border-white border-x-0 border-t-0 flex justify-between items-center px-5"
+    >
+      <nav>
+        <ul
+          class="flex h-full justify-start gap-8 text-xl text-lg font-bold cursor-pointer"
+        >
+          <li class="hover:text-black hover:bg-white">Start</li>
+          <li class="hover:text-black hover:bg-white">About us</li>
+          <li class="hover:text-black hover:bg-white">Contact</li>
+        </ul>
+      </nav>
+      <button
+        class="w-15 h-15 border-2 border-white rounded-4xl bg-black hover:bg-white hover:text-black cursor-pointer text-sm font-bold"
+      >
+        Change Theme
+      </button>
+    </header>
+    <main>
+      <h1 class="flex justify-center text-2xl font-bold mt-4">
+        Photos Library
+      </h1>
+      <img />
+      <img />
+      <img />
+      <img />
+      <img />
+    </main>
+    <footer></footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
