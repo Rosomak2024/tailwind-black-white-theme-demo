@@ -7,7 +7,7 @@
     <title>tailwind-black-white-theme</title>
   </head>
   <body
-    class="flex items-center flex-col bg-black text-white text-md font-normal py-4"
+    class="flex items-center flex-col bg-black font-mono text-white text-md font-normal py-4"
   >
     <header
       class="w-95/100 h-20 border-2 border-white border-x-0 border-t-0 flex justify-between items-center px-5"
@@ -22,20 +22,47 @@
         </ul>
       </nav>
       <button
-        class="button w-15 h-15 border-2 border-white rounded-4xl bg-black hover:bg-white hover:text-black cursor-pointer text-sm font-bold"
+        class="button py-2 px-4 rounded border-2 border-white rounded-4xl bg-black hover:bg-white hover:text-black cursor-pointer text-sm font-bold"
       >
-        Change Theme
+        Night<br />Day
       </button>
     </header>
     <main>
-      <h1 class="flex justify-center text-2xl font-bold mt-4">
+      <h1 class="flex justify-center text-4xl font-bold mt-4">
         Photos Library
       </h1>
-      <img />
-      <img />
-      <img />
-      <img />
-      <img />
+      <section class="w-full p-5 gap-d flex flex-wrap">
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo1"
+          src="/pexels-ioanamtc-14733025.jpg"
+        />
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo2"
+          src="/pexels-joyston-judah-331625-933054.jpg"
+        />
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo3"
+          src="/pexels-packermann-1666012.jpg"
+        />
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo4"
+          src="/pexels-packermann-1666021.jpg"
+        />
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo5"
+          src="/pexels-pixabay-206359.jpg"
+        />
+        <img
+          class="w-1/5 p-5"
+          alt="mountain_photo6"
+          src="/pexels-riciardus-789380.jpg"
+        />
+      </section>
     </main>
     <footer></footer>
     <script type="module" src="/src/main.js"></script>
