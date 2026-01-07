@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=brightness_6" />
     <link href="/src/style.css" rel="stylesheet" />
     <title>tailwind-black-white-theme</title>
   </head>
   <body
-    class="flex items-center flex-col bg-black font-mono text-white text-md font-normal py-4"
+    class="flex items-center flex-col font-mono dark:bg-black dark:text-white bg-white text-black text-md font-normal py-4"
   >
     <header
-      class="w-95/100 h-20 border-2 border-white border-x-0 border-t-0 flex justify-between items-center px-5"
+      class="w-95/100 h-20 border-2 dark:border-white border-black border-x-0 border-t-0 flex justify-between items-center px-5"
     >
       <nav>
         <ul
           class="flex h-full justify-start gap-8 text-xl text-lg font-bold cursor-pointer"
         >
-          <li class="hover:text-black hover:bg-white">Start</li>
-          <li class="hover:text-black hover:bg-white">About us</li>
-          <li class="hover:text-black hover:bg-white">Contact</li>
+          <li">Start</li>
+          <li">About us</li>
+          <li">Contact</li>
         </ul>
       </nav>
-      <button
-        class="button py-2 px-4 rounded border-2 border-white rounded-4xl bg-black hover:bg-white hover:text-black cursor-pointer text-sm font-bold"
-      >
-        Night<br />Day
-      </button>
+      <span class="material-symbols-outlined cursor-pointer">
+        brightness_6
+        </span>
     </header>
     <main>
       <h1 class="flex justify-center text-4xl font-bold mt-4">
